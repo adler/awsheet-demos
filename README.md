@@ -1,13 +1,13 @@
 # AWSHeet Demo
 
-Clone this repository and modify it to suit your needs
+Clone this repository and customize it. Now you can use https://github.com/adler/awsheet
 
 ## Requirements
 * AWS credentials authoirzed with at least 'Amazon EC2 Full Access' (use [IAM](https://console.aws.amazon.com/iam/home?region=us-east-1) to create a special user)
 * EC2 requires a [key pair](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#KeyPairs)
 
 ## Getting Started
-1. install requirements (boto)
+1. install requirements (AWSHeet )
  
  ````sudo pip install -r requirements.txt````
 3. replace CHANGEME with your own values in demo.py and demo.auth (including key_name)
