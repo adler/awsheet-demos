@@ -1,3 +1,6 @@
 *~
+.#*
 *.pyc
+
+# ignore AWSHeet auth files
 *.auth
