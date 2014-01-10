@@ -1,18 +1,18 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 import awsheet
 
 defaults = {
 
     # each heet object is associated with a single region
-    'region' : 'us-east-1',
+    #'region' : 'us-east-1',
 
     # pick a default ami so you don't have to pass it as an argument to every InstanceHelper
     # Ubuntu Server 12.04.3 LTS - ami-a73264ce (64-bit) / ami-a53264cc (32-bit)
     'ami' : 'ami-a73264ce',
 
     # ec2 requires you must create or upload key pair https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#KeyPairs:
-    'key_name' : 'CHANGME',
+    #'key_name' : 'CHANGME',
 
     # without a subnet_id, EC2 will use default-vpc subnet or ec2-classic
     #'subnet_id' : 'CHANGEME',
